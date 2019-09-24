@@ -1,53 +1,51 @@
 html {
-	line-height: 1.15;
-	-webkit-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 
 body {
-	margin: 0;
-	-webkit-font-smoothing: subpixel-antialiased;
-	-moz-font-smoothing: subpixel-antialiased;
-	-o-font-smoothing: subpixel-antialiased;
-	-webkit-font-feature-settings: "kern" 1;
-	-moz-font-feature-settings: "kern" 1;
+    margin: 0;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-font-smoothing: subpixel-antialiased;
+    -o-font-smoothing: subpixel-antialiased;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
 }
 
 main {
-	display: block;
+    display: block;
 }
 
 hr {
-	box-sizing: content-box;
-	height: 0;
-	overflow: visible;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
 }
 
 code,
 kbd,
 samp,
 pre {
-	font-family: monospace, monospace;
-	font-size: 1em;
+    font-family: monospace, monospace;
+    font-size: 1em;
 }
 
-
 abbr[title] {
-	border-bottom: none;
-	text-decoration: underline;
-	text-decoration: underline dotted;
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted;
 }
 
 b,
 strong {
-	font-weight: bolder;
+    font-weight: bolder;
 }
 
 img {
-	border-style: none;
+    border-style: none;
 }
 
 textarea {
-	overflow: auto;
+    overflow: auto;
 }
 
 button,
@@ -55,200 +53,200 @@ input,
 optgroup,
 select,
 textarea {
-	font-family: inherit;
+    font-family: inherit;
 }
 
 button,
 select {
-	text-transform: none;
+    text-transform: none;
 }
 
 button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-	-webkit-appearance: button;
+    -webkit-appearance: button;
 }
 
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
-	border-style: none;
-	padding: 0;
+    border-style: none;
+    padding: 0;
 }
 
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-	outline: 1px dotted ButtonText;
+    outline: 1px dotted ButtonText;
 }
 
 [type="checkbox"],
 [type="radio"] {
-	box-sizing: border-box;
-	/* 1 */
-	padding: 0;
-	/* 2 */
+    box-sizing: border-box;
+    /* 1 */
+    padding: 0;
+    /* 2 */
 }
 
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
-	height: auto;
+    height: auto;
 }
 
 [type="search"] {
-	-webkit-appearance: textfield;
-	/* 1 */
-	outline-offset: -2px;
-	/* 2 */
+    -webkit-appearance: textfield;
+    /* 1 */
+    outline-offset: -2px;
+    /* 2 */
 }
 
 [type="search"]::-webkit-search-decoration {
-	-webkit-appearance: none;
+    -webkit-appearance: none;
 }
 
 ::-webkit-file-upload-button {
-	-webkit-appearance: button;
-	font: inherit;
+    -webkit-appearance: button;
+    font: inherit;
 }
 
 a {
-	background-color: transparent;
+    background-color: transparent;
 }
 
 details {
-	display: block;
+    display: block;
 }
 
 summary {
-	display: list-item;
+    display: list-item;
 }
 
 template {
-	display: none;
+    display: none;
 }
 
 [hidden] {
-	display: none;
+    display: none;
 }
 
 a.no-style {
-	color: inherit;
+    color: inherit;
 }
 
 a.no-style:link,
 a.no-style:visited,
 a.no-style:hover,
 a.no-style:active {
-	color: inherit;
-	text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 a.no-style.underline:hover {
-	color: inherit;
-	text-decoration: underline;
+    color: inherit;
+    text-decoration: underline;
 }
 
 .light {
-	font-weight: lighter !important;
+    font-weight: lighter !important;
 }
 
 .boldest {
-	font-weight: 900 !important;
+    font-weight: 900 !important;
 }
 
 .hidden {
-	display: none;
+    display: none;
 }
 
 .text-inherit {
-	color: inherit;
+    color: inherit;
 }
 
 .text-white {
-	color: #fff;
+    color: #fff;
 }
 
 .small-text {
-	font-size: 0.75em !important;
+    font-size: 0.75em !important;
 }
 
 .normal-text {
-	font-size: 1em !important;
+    font-size: 1em !important;
 }
 
 .big-text {
-	font-size: 1.125rem !important;
+    font-size: 1.125rem !important;
 }
 
-.no-margin {
-	margin: 0;
+.margin-0 {
+    margin: 0;
 }
 
 .no-overflow,
 .no-overflow-x {
-	overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 .no-overflow,
 .no-overflow-y {
-	overflow-y: hidden;
+    overflow-y: hidden;
 }
 
 .overflow,
 .overflow-x {
-	overflow-x: auto;
+    overflow-x: auto;
 }
 
 .overflow,
 .overflow-y {
-	overflow-y: auto;
+    overflow-y: auto;
 }
 
 .no-shrink {
-	flex-shrink: 0;
+    flex-shrink: 0;
 }
 
 .transit-1 {
-	transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
 }
 
 .transit-2 {
-	transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .op-0 {
-	opacity: 0;
+    opacity: 0;
 }
 
 .op-50 {
-	opacity: 0.5;
+    opacity: 0.5;
 }
 
-.op-67 {
-	opacity: 0.67;
+.op-75 {
+    opacity: 0.75;
 }
 
 .op-100 {
-	opacity: 1;
+    opacity: 1;
 }
 
 .ellipsis {
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .cursor-default {
-	cursor: default !important;
+    cursor: default !important;
 }
 
 .cursor-pointer {
-	cursor: pointer !important;
+    cursor: pointer !important;
 }
 
 .no-resize {
-	resize: none;
+    resize: none;
 }
